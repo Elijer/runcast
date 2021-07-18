@@ -1,5 +1,7 @@
-import {setDeviceMotion} from './deviceMotion.js'
+import {setDeviceMotion} from './deviceMotion'
+import {geolocation} from './geolocation'
 
 document.addEventListener("DOMContentLoaded", event => {
   setDeviceMotion();
+  geolocation();
 })
